@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Sample/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background_color">#29293d</color>
+    <color name="subtitle_text_color">#E6E6E6</color>
+    <color name="title_text_color">#99999E</color>
+    <declare-styleable name="CustomImageText"><attr format="boolean" name="textAllCaps"/><attr format="boolean" name="singleLine"/><attr format="color" name="textColor"/><attr format="string" name="fontFamily"/><attr format="string" name="ellipsize"/></declare-styleable>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Sample/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="bottom_text_subtitle_size">36dp</dimen>
+    <dimen name="bottom_text_title_size">16dp</dimen>
+    <dimen name="top_text_subtitle_size">46dp</dimen>
+    <dimen name="top_text_title_size">18dp</dimen>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Sample/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SplashScreen</string>
+    <string name="count">Total Points</string>
+    <string name="count_value">&lt;b>00765+&lt;b></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="session_details">Last Session</string>
+    <string name="session_value">&lt;b>0000+&lt;b></string>
+    <!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/Sample/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="EditTitleTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>
